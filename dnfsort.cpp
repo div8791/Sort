@@ -1,4 +1,7 @@
 //use for sorting an array of 0s, 1s, and 2s 
+//if 0, swap arr[low] and arr[mid], low++, mid++
+//if 1, mid++
+// if 2, swap arr[mid] and arr[high], high--
 #include<bits/stdc++.h>
 using namespace std;
 void swap(int arr[], int i, int j)
