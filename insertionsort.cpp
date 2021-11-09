@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-void bubs(vector<int> &a, int n)
+void ins(vector<int> &a, int n)
 {
     for(int i=1; i<n; i++)
     {
@@ -22,7 +22,7 @@ signed main()
     {
         cin>>i;
     }
-    bubs(a, n);
+    ins(a, n);
     for(auto &i: a)
     {
         cout<<i<<" ";
